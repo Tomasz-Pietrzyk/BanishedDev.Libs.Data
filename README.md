@@ -1,6 +1,8 @@
 # BanishedDev.Libs.Data
 
-[License](LICENSE.md)
+[License](LICENSE.md) 
+
+[![Build Status](https://banisheddevltd.visualstudio.com/BanishedDev.Libs.Data/_apis/build/status/Tomasz-Pietrzyk.BanishedDev.Libs.Data?branchName=master)](https://banisheddevltd.visualstudio.com/BanishedDev.Libs.Data/_build/latest?definitionId=7&branchName=master)
 
 A library for operations on value type data. The main task is to limit the allocation of data on Heap.
 
