@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PackageId>BanishedDev.Libs.Data</PackageId>
+    <RootNamespace>BanishedDev.Libs.Data</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Product>BanishedDev.Libs.Data</Product>
+    <Title>BanishedDev.Libs.Data</Title>
+
+    <Description>ToDo</Description>
+    <Copyright>Copyright © Tomasz Pietrzyk 2022</Copyright>
+    <Summary>ToDo</Summary>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    
+    <PackageId>BanishedDev.Libs.Data</PackageId>
+    <PackageTags>data;array;collection;memory</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon></PackageIcon>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+     
+    <RootNamespace>BanishedDev.Libs.Data</RootNamespace>
+    <AssemblyName>BanishedDev.Libs.Data</AssemblyName>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <Nullable>enable</Nullable>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    
+    <RepositoryUrl>https://github.com/Tomasz-Pietrzyk/BanishedDev.Libs.Data.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+
+  </PropertyGroup>
+</Project>

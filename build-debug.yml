@@ -1,0 +1,28 @@
+trigger: none
+
+pr:
+- master
+
+pool: 'Default'
+
+steps:
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '6.0.x'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: 'BanishedDev.Libs.Data.sln'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'test'
+    projects: 'src/BanishedDev.Libs.Data.Tests/BanishedDev.Libs.Data.Tests.csproj'
+    arguments: '--collect:"XPlat Code Coverage"'
+
+- task: PublishCodeCoverageResults@1
+  inputs:
+    codeCoverageTool: 'Cobertura'
+    summaryFileLocation: '$(Agent.TempDirectory)/**/In/**/coverage.cobertura.xml'
