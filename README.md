@@ -1,10 +1,16 @@
 # BanishedDev.Libs.Data
 
-[License](LICENSE.md) 
-
-[![Build Status](https://banisheddevltd.visualstudio.com/BanishedDev.Libs.Data/_apis/build/status/Tomasz-Pietrzyk.BanishedDev.Libs.Data?branchName=master)](https://banisheddevltd.visualstudio.com/BanishedDev.Libs.Data/_build/latest?definitionId=7&branchName=master)
+![License](https://img.shields.io/github/license/Tomasz-Pietrzyk/BanishedDev.Libs.Data?style=plastic) [![Build Status](https://banisheddevltd.visualstudio.com/BanishedDev.Libs.Data/_apis/build/status/Tomasz-Pietrzyk.BanishedDev.Libs.Data?branchName=master)](https://banisheddevltd.visualstudio.com/BanishedDev.Libs.Data/_build/latest?definitionId=7&branchName=master) ![Version](https://img.shields.io/nuget/vpre/BanishedDev.Libs.Data?style=plastic)
 
 A library for operations on value type data. The main task is to limit the allocation of data on Heap.
+
+![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/banisheddevltd/BanishedDev.Libs.Data/7?style=plastic)
+
+## NuGet Package
+
+```c
+dotnet add package BanishedDev.Libs.Data --version 0.1.0-dev.22301201
+```
 
 ## DataCollection
 

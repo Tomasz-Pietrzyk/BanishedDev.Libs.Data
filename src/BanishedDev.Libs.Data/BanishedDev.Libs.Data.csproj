@@ -22,7 +22,7 @@
     <PackageTags>data;array;collection;memory</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon></PackageIcon>
-    <PackageProjectUrl></PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Tomasz-Pietrzyk/BanishedDev.Libs.Data</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
      
     <RootNamespace>BanishedDev.Libs.Data</RootNamespace>
@@ -37,4 +37,8 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
 
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="\" />
+    <None Include="../../LICENSE.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 </Project>

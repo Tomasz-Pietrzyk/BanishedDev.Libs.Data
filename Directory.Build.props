@@ -3,7 +3,7 @@
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <TargetFramework Condition=" '$(TargetFramework)' == '' ">net6.0</TargetFramework>
         <VersionPrefix>0.1.0</VersionPrefix>
-        <VersionSuffix>dev</VersionSuffix>
+        <VersionSuffix>dev.22301201</VersionSuffix>
         <Authors>Tomasz Pietrzyk</Authors>
         <Company>BanishedDev</Company>
     </PropertyGroup>
